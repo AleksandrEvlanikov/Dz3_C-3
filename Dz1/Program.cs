@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("ВВедите пятизначное число ");
-string number = Console.ReadLine(); 
+int number = Convert.ToInt32(Console.ReadLine()); 
 
-if (number [0] == number [4] && number [1] == number [3] )
-
+string array = number.ToString();
+if (array [0] == array [4] && array [1] == array [3] )
 {
     Console.WriteLine("Yes" );
     
